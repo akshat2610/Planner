@@ -22,7 +22,7 @@ public class RoundButton extends JButton {
 		 * These statements enlarge the button so that it becomes a circle rather than
 		 * an oval.
 		 */
-		Dimension size = getPreferredSize();
+		Dimension size = new Dimension(125,125);//getPreferredSize();
 		size.width = size.height = Math.max(size.width, size.height);
 		setPreferredSize(size);
 		this.img = img;
@@ -74,6 +74,8 @@ public class RoundButton extends JButton {
 		BufferedImage home= ImageIO.read(new File("./home.jpeg"));
 		BufferedImage travel= ImageIO.read(new File("./travel.jpeg"));
 		BufferedImage entertainment= ImageIO.read(new File("./entertainment.jpeg"));
+		BufferedImage socialMedia= ImageIO.read(new File("./socialMedia.jpg"));
+		BufferedImage social= ImageIO.read(new File("./social.jpg"));
 		
 
 		JFrame.setDefaultLookAndFeelDecorated(true);
@@ -83,11 +85,12 @@ public class RoundButton extends JButton {
 		JButton b1 = new RoundButton("", sleep);
 		JButton b2 = new RoundButton("", sports);
 		JButton b3 = new RoundButton("", videoGame);
-		JButton b4 = new RoundButton("", sleep );
-		JButton b5 = new RoundButton("", sleep);
+		JButton b4 = new RoundButton("", socialMedia );
+		JButton b5 = new RoundButton("", social);
 		JButton b6 = new RoundButton("", entertainment);
 		JButton b7 = new RoundButton("", home);
 		JButton b8 = new RoundButton("", travel);
+		
 
 		frame.add(b1);
 		frame.add(b2);
