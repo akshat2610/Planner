@@ -1,0 +1,40 @@
+CS 157A
+Study
+0
+10
+Urgent
+22-11-2019
+Read Chapters
+
+CS 151 Project
+Work
+0
+20
+Very high
+02-12-2019
+Link database
+
+CS 157A PA
+Work
+0
+20
+Very high
+25-11-2019
+Understand UDFs
+
+CS 157A
+Study
+0
+10
+Urgent
+22-11-2019
+Read chapters
+
+cs 149
+Study
+0
+7
+High
+03-12-2019
+[OPTIONAL] Add note
+
