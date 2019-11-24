@@ -1,0 +1,64 @@
+CS 157A
+Study
+0
+10
+Urgent
+22-11-2019
+Read Chapters
+
+CS 151 Project
+Work
+0
+20
+Very high
+02-12-2019
+Link database
+
+CS 157A PA
+Work
+0
+20
+Very high
+25-11-2019
+Understand UDFs
+
+CS 157A
+Study
+0
+10
+Urgent
+22-11-2019
+Read chapters
+
+Laundry
+Routine
+0
+2
+Medium
+24-11-2019
+Wash and Dry
+
+PHYS 51 Final Prep
+Study
+0
+40
+Urgent
+30-11-2019
+Need to study
+
+CS 151 Final
+Study
+0
+20
+Very high
+25-11-2019
+Read slides and chapters
+
+BUS 188 Project
+Work
+0
+3
+Urgent
+12-11-2019
+View google doc for ref
+
