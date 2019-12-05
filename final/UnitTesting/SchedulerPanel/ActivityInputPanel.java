@@ -86,6 +86,22 @@ public class ActivityInputPanel extends JPanel{
     return noteTF.getText();
   }
 
+  public void setNameTF(String nameText)
+  {
+    nameTF.setText(nameText);
+  }
+
+  public void setnumHrsTF(int hrs)
+  {
+    numHrsTF.setText(""+hrs);
+  }
+
+  public void setNoteTF(String noteText)
+  {
+    noteTF.setText(noteText);
+  }
+
+
   private final static int INPUT_PANEL_NUM_ROWS = 4;
   private final static int INPUT_PANEL_NUM_COLS = 1;
 
