@@ -59,6 +59,13 @@ public class TaskInputPanel extends ActivityInputPanel{
     return (String)priorityDropDown.getSelectedItem();
   }
 
+
+
+   public void setDeadlineTF(String deadlineText)
+  {
+    deadlineTF.setText(deadlineText);
+  }
+
   /**
    * Tester for task input panel
   */
