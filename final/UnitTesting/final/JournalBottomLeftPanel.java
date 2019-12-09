@@ -4,7 +4,7 @@ import javax.swing.*;
 import java.awt.event.*;
 import java.util.List;
 import java.util.ArrayList;
-
+import javax.swing.border.Border;
 
 
 public class JournalBottomLeftPanel extends JPanel{
@@ -24,8 +24,10 @@ public class JournalBottomLeftPanel extends JPanel{
 		Color color = new Color(212, 230, 57);
 		JPanel sticky = new JPanel();
 
+		Border blackline = BorderFactory.createLineBorder(Color.black);
 		sticky.setBackground(color);
 		sticky.add(new JLabel(note));
+		sticky.setBorder(blackline);
 		add(sticky);
 		repaint();
 		revalidate();
